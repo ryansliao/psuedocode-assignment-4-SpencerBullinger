@@ -1,0 +1,64 @@
+How to play the Game of War:
+
+- Two people
+- up to an hour of gameplay
+
+ Use a deck of 52 cards that includes two jokers.
+ Shuffles this deck of 52 cards.
+ Split the shuffled deck into two groups of 26.
+ Give each player a group of 26 cards.
+ Each player puts the deck facedown on a table.
+
+Round One:
+
+ Each player pulls the top card off.
+ Each player then places the top card face side up on the table.
+
+ There are now two cards on the table.
+ These cards face opposite directions and are face up.
+ /* the player should see the number or face, not the generic back */
+
+ Compare the values of the two cards.
+ Determine which card has the greater value.
+
+ /* 2<3<4<5<6<7<8<9<10<jack<queen<king<ace<joker */
+
+If: Both cards have the same value:/* Double War Sequence */
+
+	Leave both cards on the table in their original position.
+	Each player will place 3 cards facedown onto the table behind their current card from the above tie.
+	Each player will take another card from the top of their deck and place it face up on the listed table.
+	Which ever of these singular cards has the greater value is the winner.
+	
+	If: Both cards have the same value, repeat the previous sequence: */ Double War Sequence */
+		
+		Else:
+			The player who placed the winning card is the winner.
+			The winning player will take all the cards on the table. 
+			This includes the six facedown cards.
+
+Else:
+	The player whose card value is of greater value takes both his card and his opponent's. 
+	This same player then puts the two cards face down on the bottom of his deck.
+	This concludes round one.
+	Initiate round two.
+
+Round Two:
+`
+Repeat Round One instructions.
+Continue on through multiple rounds.
+
+If: One player has no cards:
+	
+	The opposing player wins.
+	
+		Else:
+	
+			Continue playing until the above condition is satisfied.
+
+ Continue onwards with more and more cards.
+ The player that controls all the cards wins.
+
+
+
+
